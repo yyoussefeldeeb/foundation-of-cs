@@ -12,7 +12,7 @@ def is_prime(n):
 # generate a prime number and its primitive root
 def generate_prime_and_primitive_root():
     while True:
-        p = random.randint(100, 500)  # having a small range
+        p = random.randint(1000, 50000)  
         if is_prime(p):
             return p, 2  
 
